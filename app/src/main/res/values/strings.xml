@@ -3,4 +3,8 @@
     <string name="create_an_account">Create Account</string>
     <string name="welcome">Welcome to Yorga</string>
     <string name="log_in">Log In</string>
+    <string name="next_top_women">Next Top Women</string>
+    <string name="background2">"You are a young entrepreneur who is planning to make it big in the tech world. You’re goal is to claim the title of the  Next Top Woman in Tech in your area. Every lesson you will learn will empower you with the knowledge and experience to improve your product and company. Every questions you get right, you will earn virtual money to be put towards improving your company."</string>
+    <string name="are_you_ready_to_become_the_next_top_women">Are you Ready to Become the Next Top Women?</string>
+    <string name="background1">Java, developed in 1991, is currently one of the most popular programming languages because of its versatility. You can use it to make softwares, web applications, mobile apps, and even self driving self. The list goes on and on. Right now, the world of technology is the hottest field, and you want to be a part of it.</string>
 </resources>
