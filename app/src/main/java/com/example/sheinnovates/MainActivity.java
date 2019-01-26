@@ -13,12 +13,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
     }
     public void createAccount(View view) {
         // Code here executes on main thread after user presses button
-        Intent create = new Intent(this, CreateAccount.class);
-//        setContentView(R.layout.activity_create_account);
+        Intent create = new Intent(this,story1Demo.class);
+        setContentView(R.layout.activity_create_account);
         startActivity(create);
     }
 
