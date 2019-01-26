@@ -20,7 +20,6 @@
         <activity android:name=".Login"></activity>
         <activity android:name=".LoadScreen"></activity>
         <activity android:name=".PickPage"></activity>
-        <activity android:name=".Entrepreneur"></activity>
     </application>
 
 </manifest>

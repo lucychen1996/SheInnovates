@@ -8,20 +8,16 @@ import android.widget.Button;
 
 public class PickPage extends AppCompatActivity{
 
-    private Button mentrepreneur;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pick);
 
-        mentrepreneur = (Button) findViewById(R.id.entrepreneur);
-
-        mentrepreneur.setOnClickListener(new View.OnClickListener() {
+        Button readybutton = findViewById(R.id.entrepreneur);
+        readybutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myIntent = new Intent(v.getContext(), Entrepreneur.class);
-                startActivityForResult(myIntent, 0);
+                startActivity(new Intent(PickPage.this, story1customization.class));
             }
         });
 

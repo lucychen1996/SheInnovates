@@ -63,14 +63,20 @@ public class MainActivity extends AppCompatActivity {
 
     public void PickPage(View view) {
 
-        Intent create = new Intent(this, LoadScreen.class);
+        Intent create = new Intent(this, PickPage.class);
         setContentView(R.layout.activity_pick);
         startActivity(create);
     }
 
-    public void Entrepreneur(View view){
-        Intent create = new Intent(this, LoadScreen.class);
-        setContentView(R.layout.activity_entrepreneur);
+    public void story1Demo(View view){
+        Intent create = new Intent(this, story1Demo.class);
+        setContentView(R.layout.activity_story1_demo);
+        startActivity(create);
+    }
+
+    public void story1customization(View view){
+        Intent create = new Intent(this, story1customization.class);
+        setContentView(R.layout.activity_story1customization);
         startActivity(create);
     }
 
