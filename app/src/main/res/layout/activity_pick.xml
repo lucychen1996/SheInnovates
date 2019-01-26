@@ -7,6 +7,59 @@
     android:background="@drawable/gradient_background"
     android:layout_height="match_parent">
 
+    <ImageView
+        android:id="@+id/imageView2"
+        android:elevation="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/business"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="157dp" />
+
+    <ImageView
+        android:elevation="200dp"
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/nurse"
+        tools:layout_editor_absoluteX="241dp"
+        tools:layout_editor_absoluteY="157dp" />
+
+    <ImageView
+        android:elevation="200dp"
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/teacher"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="330dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:elevation="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/accountant"
+        tools:layout_editor_absoluteX="241dp"
+        tools:layout_editor_absoluteY="330dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:elevation="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/spreadsheet"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="503dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:elevation="200dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/home"
+        tools:layout_editor_absoluteX="241dp"
+        tools:layout_editor_absoluteY="503dp" />
     <Button
         android:id="@+id/entrepreneur"
         android:layout_width="157dp"
@@ -126,5 +179,7 @@ Helper"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.107" />
+
+
 
 </android.support.constraint.ConstraintLayout>
