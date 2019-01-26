@@ -40,7 +40,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
     }
 
     public void loadScreen(View view){
@@ -59,6 +58,19 @@ public class MainActivity extends AppCompatActivity {
     public void Login(View view){
         Intent create = new Intent(this, Login.class);
         setContentView(R.layout.activity_login);
+        startActivity(create);
+    }
+
+    public void PickPage(View view) {
+
+        Intent create = new Intent(this, LoadScreen.class);
+        setContentView(R.layout.activity_pick);
+        startActivity(create);
+    }
+
+    public void Entrepreneur(View view){
+        Intent create = new Intent(this, LoadScreen.class);
+        setContentView(R.layout.activity_entrepreneur);
         startActivity(create);
     }
 

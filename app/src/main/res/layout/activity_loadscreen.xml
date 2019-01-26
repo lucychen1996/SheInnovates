@@ -4,14 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoadScreen">
-
+    android:background="@drawable/gradient_background">
 
     <ProgressBar
-        android:id="@+id/progressBar2"
+        android:id="@+id/progressBar"
         style="?android:attr/progressBarStyleHorizontal"
-        android:layout_width="193dp"
-        android:layout_height="73dp"
-        tools:layout_editor_absoluteX="109dp"
-        tools:layout_editor_absoluteY="270dp" />
+        android:layout_width="165dp"
+        android:layout_height="17dp"
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="320dp" />
 </android.support.constraint.ConstraintLayout>
