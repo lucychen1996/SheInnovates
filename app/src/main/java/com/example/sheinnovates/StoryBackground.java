@@ -17,7 +17,7 @@ public class StoryBackground extends AppCompatActivity {
         readybutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(StoryBackground.this, Entrepreneur.class));
+                startActivity(new Intent(StoryBackground.this, Lesson1Intro.class));
             }
         });
     }
