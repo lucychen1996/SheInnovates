@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".StoryBackground"
-    android:background="@drawable/city">
+    android:background="@drawable/city_pink"
+    >
 
     <TextView
         android:id="@+id/storytitle"
@@ -13,12 +14,15 @@
         android:layout_height="63dp"
         android:layout_marginStart="60dp"
         android:layout_marginLeft="60dp"
-        android:layout_marginTop="76dp"
+        android:layout_marginTop="112dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:focusableInTouchMode="true"
         android:text="@string/next_top_women"
+        android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#63233A"
+        android:textStyle="bold"
         android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -28,17 +32,21 @@
     <TextView
         android:id="@+id/storysummary"
         android:layout_width="307dp"
-        android:layout_height="203dp"
+        android:layout_height="280dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="48dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:background="@color/textboxcity"
+        android:background="@drawable/transparent_background"
         android:onClick="nextText"
         android:text="@string/background1"
+        android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#4E343D"
+        android:textSize="18sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/barrier"
+        app:layout_constraintHorizontal_bias="0.534"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/storytitle" />
 
@@ -72,13 +80,32 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="24dp"
-        android:text="@string/are_you_ready_to_become_the_next_top_women"
+        android:text="Are you ready to become the next top woman?"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:visibility="invisible"
+        android:background="@drawable/rounded_corner"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/storysummary"
         app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.888"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.555"
+        app:srcCompat="@drawable/arrow" />
 
 </android.support.constraint.ConstraintLayout>
