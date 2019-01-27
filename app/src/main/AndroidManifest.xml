@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Lesson1Page1"></activity>
+        <activity android:name=".Lesson1Page2"></activity>
+        <activity android:name=".Lesson1Page1" />
         <activity android:name=".Lesson1Intro" />
         <activity android:name=".MainActivity">
             <intent-filter>
@@ -18,13 +19,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".CreateAccount"></activity>
-        <activity android:name=".Login"></activity>
-        <activity android:name=".LoadScreen"></activity>
-        <activity android:name=".PickPage"></activity>
-        <activity android:name=".Entrepreneur"></activity>
-        <activity android:name=".StoryBackground"></activity>
-        <activity android:name=".Lesson1"></activity>
+        <activity android:name=".CreateAccount" />
+        <activity android:name=".Login" />
+        <activity android:name=".LoadScreen" />
+        <activity android:name=".PickPage" />
+        <activity android:name=".Entrepreneur" />
+        <activity android:name=".StoryBackground" />
+        <activity android:name=".Lesson1" />
     </application>
 
 </manifest>

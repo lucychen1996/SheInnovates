@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".StoryBackground"
-    android:background="@drawable/city_pink"
+    android:background="@drawable/rounded_corner"
     >
 
     <TextView
