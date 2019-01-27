@@ -22,7 +22,7 @@ public class StoryBackground extends AppCompatActivity {
         });
     }
     public void nextText(View view) {
-        TextView backgroundInfo = findViewById(R.id.background1);
+        TextView backgroundInfo = findViewById(R.id.storysummary);
         backgroundInfo.setText(R.string.background2);
         Button readyButton = findViewById(R.id.readybtn);
         readyButton.setVisibility(View.VISIBLE);
