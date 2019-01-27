@@ -18,7 +18,7 @@ public class Entrepreneur extends AppCompatActivity {
         citybtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myIntent = new Intent(v.getContext(), StoryBackground.class);
+                Intent myIntent = new Intent(v.getContext(), Lesson1.class);
                 startActivityForResult(myIntent, 0);
             }
         });

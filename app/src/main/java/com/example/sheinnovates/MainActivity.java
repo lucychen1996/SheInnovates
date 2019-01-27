@@ -80,4 +80,12 @@ public class MainActivity extends AppCompatActivity {
         startActivity(create);
     }
 
+    public void Lesson1(View view){
+        Intent create = new Intent(this, Lesson1.class);
+        setContentView(R.layout.activity_lesson_1);
+        startActivity(create);
+    }
+
+
+
 }

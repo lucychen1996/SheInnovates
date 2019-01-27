@@ -22,6 +22,7 @@
         <activity android:name=".PickPage"></activity>
         <activity android:name=".Entrepreneur"></activity>
         <activity android:name=".StoryBackground"></activity>
+        <activity android:name=".Lesson1"></activity>
     </application>
 
 </manifest>
