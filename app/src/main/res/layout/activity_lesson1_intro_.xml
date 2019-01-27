@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/rounded_corner"
+    android:background="@drawable/city_pink"
     tools:context=".Lesson1Intro">
 
     <TextView
         android:id="@+id/lesson1"
-        android:layout_width="300dp"
-        android:layout_height="135dp"
+        android:layout_width="321dp"
+        android:layout_height="223dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="24dp"
@@ -20,6 +20,8 @@
         android:lineSpacingExtra="12sp"
         android:text="@string/lesson1"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#63233A"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.41"

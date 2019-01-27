@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/city_pink"
     tools:context=".Lesson1Page2">
 
     <TextView
@@ -16,6 +17,9 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:text="Well Done!"
+        android:textAlignment="center"
+        android:textColor="#63233A"
+        android:textStyle="bold"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -32,7 +36,9 @@
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
         android:text="@string/story1"
+        android:textColor="#4E343D"
         android:textSize="18sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
@@ -52,6 +58,7 @@
         android:layout_marginBottom="8dp"
         android:ems="10"
         android:hint="Print your company name"
+        android:background="@color/textboxcity"
         android:inputType="text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
