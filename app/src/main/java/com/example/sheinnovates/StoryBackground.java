@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.ImageView;
 
 public class StoryBackground extends AppCompatActivity {
 
@@ -26,6 +27,8 @@ public class StoryBackground extends AppCompatActivity {
         backgroundInfo.setText(R.string.background2);
         Button readyButton = findViewById(R.id.readybtn);
         readyButton.setVisibility(View.VISIBLE);
+        ImageView viewed = (ImageView)findViewById(R.id.imageView19);
+        viewed.setVisibility(View.INVISIBLE);
     }
 
 //    public void readyClick(View view) {
