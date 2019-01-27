@@ -7,17 +7,17 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class story1Demo extends AppCompatActivity {
+public class StoryBackground extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_story1_demo);
+        setContentView(R.layout.activity_story_background);
         Button readybutton = findViewById(R.id.readybtn);
         readybutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(story1Demo.this, story1customization.class));
+                startActivity(new Intent(StoryBackground.this, Entrepreneur.class));
             }
         });
     }
@@ -30,8 +30,8 @@ public class story1Demo extends AppCompatActivity {
 
 //    public void readyClick(View view) {
 //        // Code here executes on main thread after user presses button
-//            Intent create = new Intent(this,activity_story1customization.class);
-//            SetContentView(R.layout.activity_story1customization);
+//            Intent create = new Intent(this,activity_entrepreneur.class);
+//            SetContentView(R.layout.activity_entrepreneur);
 //            startActivity(create);
 //    }
 

@@ -17,7 +17,7 @@ public class PickPage extends AppCompatActivity{
         readybutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(PickPage.this, story1customization.class));
+                startActivity(new Intent(PickPage.this, Entrepreneur.class));
             }
         });
 

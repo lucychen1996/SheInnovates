@@ -68,15 +68,15 @@ public class MainActivity extends AppCompatActivity {
         startActivity(create);
     }
 
-    public void story1Demo(View view){
-        Intent create = new Intent(this, story1Demo.class);
-        setContentView(R.layout.activity_story1_demo);
+    public void StoryBackground(View view){
+        Intent create = new Intent(this, StoryBackground.class);
+        setContentView(R.layout.activity_story_background);
         startActivity(create);
     }
 
-    public void story1customization(View view){
-        Intent create = new Intent(this, story1customization.class);
-        setContentView(R.layout.activity_story1customization);
+    public void Entrepreneur(View view){
+        Intent create = new Intent(this, Entrepreneur.class);
+        setContentView(R.layout.activity_entrepreneur);
         startActivity(create);
     }
 
