@@ -54,7 +54,7 @@
         android:layout_marginBottom="36dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Username"
+        android:hint="Username"
         app:layout_constraintBottom_toTopOf="@+id/editText2"
         tools:layout_editor_absoluteX="55dp" />
 
@@ -65,7 +65,7 @@
         android:layout_marginBottom="36dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Email"
+        android:hint="Email"
         app:layout_constraintBottom_toTopOf="@+id/editText4"
         tools:layout_editor_absoluteX="55dp" />
 
@@ -76,7 +76,7 @@
         android:layout_marginBottom="52dp"
         android:ems="10"
         android:inputType="date"
-        android:text="Birthday"
+        android:hint="Birthday"
         app:layout_constraintBottom_toTopOf="@+id/button"
         tools:layout_editor_absoluteX="55dp" />
 
